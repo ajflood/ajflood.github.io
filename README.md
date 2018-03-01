@@ -46,6 +46,5 @@ This is my website where I will house a wide variety of things.  For starters I 
 
 [git Cheat Sheet](git.md)
 
-[My Resume](resume.md)
-
+[My Resume](currentResume.pdf)
 
