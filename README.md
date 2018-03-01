@@ -44,4 +44,8 @@ This is my website where I will house a wide variety of things.  For starters I 
 
 [Bash Cheat Sheet](bash.md)
 
+[git Cheat Sheet](git.md)
+
+[My Resume](resume.md)
+
 
