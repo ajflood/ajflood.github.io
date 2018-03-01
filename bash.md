@@ -1,4 +1,4 @@
-Creating a function: 
-```bash
-function theName {#Echo first argument
+Creating a function: ```bash
+function theName {
+          #Echo first argument
           echo $1} ```
