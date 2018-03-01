@@ -1,15 +1,11 @@
 # Docker Cheat Sheet
 
-Remove all containers`docker rm $(docker ps -a -q)`
+Remove all containers: `docker rm $(docker ps -a -q)`
 
-Remove all images
-```docker rmi $(docker images -q)```
+Remove all images: `docker rmi $(docker images -q)`
 
-Build docker image
-```docker build -t someTag .```
+Build docker image: `docker build -t someTag .`
 
-Build nvidia-docker image
-```nvidia-docker build -t someTag .```
+Build nvidia-docker image: `nvidia-docker build -t someTag .`
 
-Run Docker image
-```docker run someTag```
+Run Docker image: `docker run someTag`
