@@ -1,7 +1,7 @@
 # Docker Cheat Sheet
 
 Remove all containers
-```shell
+```bash
 docker rm $(docker ps -a -q)
 ```
 
