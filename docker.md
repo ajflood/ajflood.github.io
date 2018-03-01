@@ -1,7 +1,9 @@
 # Docker Cheat Sheet
 
 Remove all containers
-```docker rm $(docker ps -a -q)```
+```docker 
+docker rm $(docker ps -a -q)
+```
 
 Remove all images
 ```docker rmi $(docker images -q)```
