@@ -11,3 +11,4 @@ Build nvidia-docker image: `nvidia-docker build -t someTag .`
 Run Docker image: `docker run someTag`
 
 Run Docker image and map volume: `docker run -v /localVolme:/dockerVolume thetag`
+--Note: Can use $PWD for current directory on host
