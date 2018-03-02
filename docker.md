@@ -9,3 +9,5 @@ Build docker image: `docker build -t someTag .`
 Build nvidia-docker image: `nvidia-docker build -t someTag .`
 
 Run Docker image: `docker run someTag`
+
+Run Docker image and map volume: `docker run -v /localVolme:/dockerVolume thetag`
