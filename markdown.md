@@ -6,6 +6,5 @@ Lists in markdown:
 3. For sub lists add 2 spaced and use proper syntax
 
 Code Blocks 
-
-use  ``` to begin and end code blocks. 
-use ` to begin and end inline code. 
+* use  ``` to begin and end code blocks. 
+* use ` to begin and end inline code. 
