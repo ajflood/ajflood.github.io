@@ -40,7 +40,7 @@ This is my website where I will house a wide variety of things.  For starters I 
 
 [Docker Cheat Sheet](docker.md)
 
-[LaTeX Cheat Sheet](LaTeX.md)
+[LaTeX Cheat Sheet](latex.md)
 
 [Bash Cheat Sheet](bash.md)
 
