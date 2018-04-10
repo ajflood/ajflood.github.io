@@ -1,5 +1,5 @@
 <img src="resume-0.png">
 
-(resume-1.png)
+<img src="resume-1.png">
 
-[[resume-2.png]]
+<img src="resume-2.png">
