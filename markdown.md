@@ -5,6 +5,15 @@ Lists in markdown:
 2. For unordered use * - or +
 3. For sub lists add 2 spaced and use proper syntax
 
-Code Blocks 
-* use  ``` to begin and end code blocks. 
-* use ` to begin and end inline code. 
+Code Blocks: 
+* use  ` ``` ` to begin and end code blocks.
+* use ` to begin and end inline code.
+
+Table: 
+```
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```

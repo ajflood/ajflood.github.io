@@ -42,6 +42,8 @@ This is my website where I will house a wide variety of things.  For starters I 
 
 [LaTeX Cheat Sheet](latex.md)
 
+[Markdown Cheat Sheet](markdown.md)
+
 [Bash Cheat Sheet](bash.md)
 
 [git Cheat Sheet](git.md)
