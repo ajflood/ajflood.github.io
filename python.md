@@ -20,19 +20,19 @@ logger=logging.getLogger("loggerName")
 ## Arrayfire
 
 ### algorithm
-Count number of non-zero elements in an array along a specified dimeinsion
+Count number of non-zero elements in an array along a specified dimeinsion.  
 `count(a, dim=None)`
 
-Check if any the elements along a specified dimension are true.
+Check if any the elements along a specified dimension are true.  
 `any_true(a, dim=None)`
 
 ### arith
 
 ### data
-Select elements from one of two arrays based on condition.
+Select elements from one of two arrays based on condition.  
 `replace(lhs, cond, rhs)`
 
-Select elements from one of two arrays based on condition.
+Select elements from one of two arrays based on condition.  
 `select(cond, lhs, rhs)`
 
 ### device
