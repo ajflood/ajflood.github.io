@@ -48,5 +48,7 @@ This is my website where I will house a wide variety of things.  For starters I 
 
 [git Cheat Sheet](git.md)
 
+[python Cheat Sheet](python.md)
+
 [My Resume](resume.md)
 
