@@ -2,24 +2,37 @@
 
 ## Build/Run commands
 
-Build docker image: `docker build -t someTag .`
+Build docker image:  
+`docker build -t someTag .`
 
-Run Docker image: `docker run someTag`
+Run Docker image:  
+`docker run someTag`
 
-Build nvidia-docker image: `nvidia-docker build -t someTag .`
+Build nvidia-docker image:  
+`nvidia-docker build -t someTag .`
 
-Run Docker image and map volume: `docker run -v /localVolme:/dockerVolume thetag`
+Run Docker image and map volume:  
+`docker run -v /localVolme:/dockerVolume thetag`
 
 --Note: Can use $PWD for current directory on host
 
 
 ## Clean up commands
 
-Remove all containers: `docker rm $(docker ps -a -q)`
+List all containers:  
+`docker ps -a`
 
-Remove all unattached volumes: `docker volume prune`
+List all images:  
+`docker images`
 
-Remove all images: `docker rmi $(docker images -q)`
+Remove all unattached volumes:  
+`docker volume prune`
+
+Remove container:  
+`docker rm containerName`
+
+Remove image:  
+`docker rmi imageName`
 
 
 
