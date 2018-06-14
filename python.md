@@ -1,4 +1,4 @@
-# Python Stuff I Regurally Use
+# Python Stuff I Regularly Use
 
 ## Logging.
 Setting up a new logger
@@ -33,7 +33,7 @@ Find the unique elements of an array.
 `set_unique(a, is_sorted=False)`
 
 ### array
-Displays the contents of an array.
+Displays the contents of an array.  
 `display(a, precision=4)`
 
 ### arith
