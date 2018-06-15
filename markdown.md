@@ -17,3 +17,6 @@ Table:
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 ```
+
+Links
+`[I'm an inline-style link](https://www.google.com)`
