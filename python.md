@@ -30,9 +30,9 @@
 | s		| String (converts any python object using str()).	|
 | %		| No argument is converted, results in a "%" character in the result.	|
 
-[All this is take from here.](https://www.python-course.eu/python3_formatted_output.php)
+[All this is taken from here.](https://www.python-course.eu/python3_formatted_output.php)
 
-## Logging.
+## Logging
 Setting up a new logger
 ```
 import logging
@@ -49,7 +49,7 @@ logger=logging.getLogger("loggerName")
 | NOTSET 		|  0 			|  			|
 
 
-## Arrayfire
+## [Arrayfire](http://arrayfire.org/arrayfire-python/index.html)
 
 ### algorithm
 Count number of non-zero elements in an array along a specified dimeinsion.  
@@ -57,6 +57,12 @@ Count number of non-zero elements in an array along a specified dimeinsion.
 
 Check if any the elements along a specified dimension are true.  
 `any_true(a, dim=None)`
+
+Find the maximum value of all the elements along a specified dimension.
+`max(a, dim=None)`
+
+Find the minimum value of all the elements along a specified dimension.
+`arrayfire.algorithm.min(a, dim=None)`
 
 Sort the array along a specified dimension.  
 `sort(a, dim=0, is_ascending=True)`
@@ -82,3 +88,5 @@ Join two or more arrayfire arrays along a specified dimension.
 
 ### device
 
+### statistics
+`mean(a, weights=None, dim=None)`
