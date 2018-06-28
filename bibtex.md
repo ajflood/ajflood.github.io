@@ -5,7 +5,7 @@ An article from a magazine or a journal.
 Required fields: author, title, journal, year.
 Optional fields: volume, number, pages, month, note.
 ```
-@article{Xarticle,
+@article{,
 	author	= {},
 	title	= {},
 	journal	= {},
@@ -24,7 +24,7 @@ A published book
 Required fields: author/editor, title, publisher, year.
 Optional fields: volume/number, series, address, edition, month, note.
 ```
-@book{Xbook,
+@book{,
 	author    = {},
 	title     = {},
 	publisher = {},
@@ -45,7 +45,7 @@ A bound work without a named publisher or sponsor.
 Required fields: title.
 Optional fields: author, howpublished, address, month, year, note.
 ```
-@booklet{Xbooklet,
+@booklet{,
 	title     = {},
 	
 	author   = {},
@@ -62,7 +62,7 @@ A section of a book without its own title.
 Required fields: author/editor, title, chapter and/or pages, publisher, year.
 Optional fields: volume/number, series, type, address, edition, month, note.
 ```
-@inbook{Xinbook,
+@inbook{,
 	author	= {},
 	editor	= {},
 	title	= {},
@@ -87,7 +87,7 @@ A section of a book having its own title.
 Required fields: author, title, booktitle, publisher, year.
 Optional fields: editor, volume/number, series, type, chapter, pages, address, edition, month, note.
 ```
-@incollection{Xincollection,
+@incollection{,
 	author	= {},
 	title	= {},
 	booktitle= {},
@@ -113,7 +113,7 @@ An article in a conference proceedings.
 Required fields: author, title, booktitle, year.
 Optional fields: editor, volume/number, series, pages, address, month, organization, publisher, note.
 ```
-@inproceedings{Xinproceedings,
+@inproceedings{,
 	author		= {},
 	title		= {},
 	booktitle		= {},
@@ -137,7 +137,7 @@ Technical manual
 Required fields: title.
 Optional fields: author, organization, address, edition, month, year, note.
 ```
-@manual{Xmanual,
+@manual{,
 	title		= {},
 	
 	author		= {},
@@ -155,7 +155,7 @@ Master's thesis
 Required fields: author, title, school, year.
 Optional fields: type (eg. "diploma thesis"), address, month, note.
 ```
-@mastersthesis{Xthesis,
+@mastersthesis{,
 	author    = {},
 	title     = {},
 	school    = {},
@@ -173,7 +173,7 @@ Template useful for other kinds of publication
 Required fields: none
 Optional fields: author, title, howpublished, month, year, note.
 ```
-@misc{Xmisc,
+@misc{,
 	author    = {},
 	title     = {},
 	howpublished = {},
@@ -188,7 +188,7 @@ Ph.D. thesis
 Required fields: author, title, year, school.
 Optional fields: address, month, keywords, note.
 ```
-@phdthesis{Xphdthesis,
+@phdthesis{,
 	author		= {},
 	title		= {},
 	school		= {},
@@ -206,7 +206,7 @@ The proceedings of a conference.
 Required fields: title, year.
 Optional fields: editor, volume/number, series, address, month, organization, publisher, note.
 ```
-@proceedings{Xproceedings,
+@proceedings{,
 	title		= {},
 	year			= {},
 	
@@ -227,7 +227,7 @@ Technical report from educational, commercial or standardization institution.
 Required fields: author, title, institution, year.
 Optional fields: type, number, address, month, note.
 ```
-@techreport{Xtreport,
+@techreport{,
 	author    = {},
 	title     = {},
 	institution = {},
@@ -246,11 +246,34 @@ An unpublished article, book, thesis, etc.
 Required fields: author, title, note.
 Optional fields: month, year.
 ```
-@unpublished{Xunpublished,
+@unpublished{,
 	author	= {},
 	title	= {},
 	note	= {},
 	year	= {},
 	month	= {},
+}
+```
+
+### @online
+An unpublished article, book, thesis, etc.
+Required fields: author/editor, title, year/date, url.
+Optional fields: subtitle, titleaddon, language, version,  note, organization, date, month, year, addendum.
+```
+@online{,
+	author		= {},
+	title	= {},
+	year		= {},
+	url		= {},
+	
+	subtitle	= {},
+	titleaddon = {},
+	language	= {},
+	version	= {},
+	note		= {},
+	organization = {},
+	date		= {},
+	month	= {},
+	addendum	= {},
 }
 ```
