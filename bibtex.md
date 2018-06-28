@@ -37,7 +37,7 @@ Optional fields: volume, number, pages, month, note.
 	note	= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @book
 A published book
@@ -59,7 +59,7 @@ Optional fields: volume/number, series, address, edition, month, note.
 	note     = {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @booklet 
 A bound work without a named publisher or sponsor.
@@ -77,7 +77,7 @@ Optional fields: author, howpublished, address, month, year, note.
 	note     = {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @inbook
 A section of a book without its own title.
@@ -103,7 +103,7 @@ Optional fields: volume/number, series, type, address, edition, month, note.
 	note	= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @incollection 
 A section of a book having its own title.
@@ -130,7 +130,7 @@ Optional fields: editor, volume/number, series, type, chapter, pages, address, e
 	note	= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @inproceedings 
 An article in a conference proceedings.
@@ -155,7 +155,7 @@ Optional fields: editor, volume/number, series, pages, address, month, organizat
 	note		= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @manual 
 Technical manual
@@ -174,7 +174,7 @@ Optional fields: author, organization, address, edition, month, year, note.
 	note		= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @mastersthesis 
 Master's thesis
@@ -193,7 +193,7 @@ Optional fields: type (eg. "diploma thesis"), address, month, note.
 	note     = {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @misc 
 Template useful for other kinds of publication
@@ -209,7 +209,7 @@ Optional fields: author, title, howpublished, month, year, note.
 	note     = {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @online
 An unpublished article, book, thesis, etc.
@@ -233,7 +233,7 @@ Optional fields: subtitle, titleaddon, language, version,  note, organization, d
 	addendum	= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @phdthesis 
 Ph.D. thesis
@@ -252,7 +252,7 @@ Optional fields: address, month, keywords, note.
 	note		= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @proceedings 
 The proceedings of a conference.
@@ -274,7 +274,7 @@ Optional fields: editor, volume/number, series, address, month, organization, pu
 	note			= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @techreport 
 Technical report from educational, commercial or standardization institution.
@@ -294,7 +294,7 @@ Optional fields: type, number, address, month, note.
 	note     = {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
 ### @unpublished 
 An unpublished article, book, thesis, etc.
@@ -309,5 +309,5 @@ Optional fields: month, year.
 	month	= {},
 }
 ```
-[Back to Top](#BibTeX-Templates)
+[Back to Top](#)
 
