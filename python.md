@@ -75,6 +75,9 @@ Displays the contents of an array.
 `display(a, precision=4)`
 
 ### arith
+Raise 2 to the power of each element in input.
+`pow2(a)`
+
 
 ### data
 Select elements from one of two arrays based on condition.  
