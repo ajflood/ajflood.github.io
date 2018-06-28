@@ -2,20 +2,20 @@
 
 |Tag | Use case |
 |-----------------|
-|[@article](#@article) 				|  An article from a magazine or a journal. 	|
-|[@book](#@book) 					| A published book	|
-|[@booklet](#@booklet) 				| bound work without a named publisher or sponsor.	|
-|[@inbook](#@inbook) 				| section of a book without its own title.	|
-|[@incollection](#@incollection) 		| A section of a book having its own title.	|
-|[@inproceedings](#@inproceedings) 	| An article in a conference proceedings.	|
-|[@manual](#@manual) 				| Technical manual	|
-|[@mastersthesis](#@mastersthesis) 	| Master's thesis	|
-|[@misc](#@misc) 					| Template useful for other kinds of publication	|
-|[@online](#@online) 				| An unpublished article, book, thesis, etc.	|
-|[@phdthesis](#@phdthesis) 			| Ph.D. thesis	|
-|[@proceedings](#@proceedings) 		| The proceedings of a conference.	|
-|[@techreport](#@techreport) 			| Technical report from educational, commercial or standardization institution.	|
-|[@unpublished](#@unpublished)		| An unpublished article, book, thesis, etc.	|
+|[@article](#article) 				|  An article from a magazine or a journal. 	|
+|[@book](#book) 					| A published book	|
+|[@booklet](#booklet) 				| bound work without a named publisher or sponsor.	|
+|[@inbook](#inbook) 				| section of a book without its own title.	|
+|[@incollection](#incollection) 		| A section of a book having its own title.	|
+|[@inproceedings](#inproceedings) 		| An article in a conference proceedings.	|
+|[@manual](#manual) 				| Technical manual	|
+|[@mastersthesis](#mastersthesis) 		| Master's thesis	|
+|[@misc](#misc) 					| Template useful for other kinds of publication	|
+|[@online](#online) 				| An unpublished article, book, thesis, etc.	|
+|[@phdthesis](#phdthesis) 			| Ph.D. thesis	|
+|[@proceedings](#proceedings) 		| The proceedings of a conference.	|
+|[@techreport](#techreport) 			| Technical report from educational, commercial or standardization institution.	|
+|[@unpublished](#unpublished)			| An unpublished article, book, thesis, etc.	|
 |---------------------|
 
 
