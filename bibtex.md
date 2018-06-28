@@ -6,16 +6,16 @@ Required fields: author, title, journal, year.
 Optional fields: volume, number, pages, month, note.
 ```
 @article{Xarticle,
-	author    = {},
-	title     = {},
-	journal   = {},
-	year      = "XXXX",
+	author	= {},
+	title	= {},
+	journal	= {},
+	year		= "XXXX",
 	
-	%volume   = {},
-	%number   = {},
-	%pages    = {},
-	%month    = {},
-	%note     = {},
+	volume	= {},
+	number	= {},
+	pages	= {},
+	month	= {},
+	note	= {},
 }
 ```
 
@@ -30,13 +30,13 @@ Optional fields: volume/number, series, address, edition, month, note.
 	publisher = {},
 	year      = "XXXX",
 	
-	%volume   = {},
-	%number   = {},
-	%series   = {},
-	%address  = {},
-	%edition  = {},
-	%month    = {},
-	%note     = {},
+	volume   = {},
+	number   = {},
+	series   = {},
+	address  = {},
+	edition  = {},
+	month    = {},
+	note     = {},
 }
 ```
 
@@ -48,12 +48,12 @@ Optional fields: author, howpublished, address, month, year, note.
 @booklet{Xbooklet,
 	title     = {},
 	
-	%author   = {},
-	%howpublished   = {},
-	%address  = {},
-	%year      = "XXXX",
-	%month    = {},
-	%note     = {},
+	author   = {},
+	howpublished   = {},
+	address  = {},
+	year      = "XXXX",
+	month    = {},
+	note     = {},
 }
 ```
 
@@ -71,14 +71,14 @@ Optional fields: volume/number, series, type, address, edition, month, note.
 	publisher= {},
 	year	= {},
 	
-	%volume	= {},
-	%number	= {},
-	%series	= {},
-	%type	= {},
-	%address= {},
-	%edition= {},
-	%month	= {},
-	%note	= {},
+	volume	= {},
+	number	= {},
+	series	= {},
+	type	= {},
+	address= {},
+	edition= {},
+	month	= {},
+	note	= {},
 }
 ```
 
@@ -94,17 +94,17 @@ Optional fields: editor, volume/number, series, type, chapter, pages, address, e
 	publisher= {},
 	year	= {},
 	
-	%editor	= {},
-	%volume	= {},
-	%number	= {},
-	%series	= {},
-	%type	= {},
-	%chapter= {},
-	%pages	= {},
-	%address= {},
-	%edition= {},
-	%month	= {},
-	%note	= {},
+	editor	= {},
+	volume	= {},
+	number	= {},
+	series	= {},
+	type	= {},
+	chapter= {},
+	pages	= {},
+	address= {},
+	edition= {},
+	month	= {},
+	note	= {},
 }
 ```
 
@@ -119,16 +119,16 @@ Optional fields: editor, volume/number, series, pages, address, month, organizat
 	booktitle		= {},
 	year			= {},
 	
-	%editor		= {},
-	%volume		= {},
-	%number		= {},
-	%series		= {},
-	%pages		= {},
-	%address		= {},
-	%organization	= {},
-	%publisher	= {},
-	%month		= {},
-	%note		= {},
+	editor		= {},
+	volume		= {},
+	number		= {},
+	series		= {},
+	pages		= {},
+	address		= {},
+	organization	= {},
+	publisher	= {},
+	month		= {},
+	note		= {},
 }
 ```
 
@@ -140,13 +140,13 @@ Optional fields: author, organization, address, edition, month, year, note.
 @manual{Xmanual,
 	title		= {},
 	
-	%author		= {},
-	%organization	= {},
-	%address		= {},
-	%edition		= {},
-	%year		= {},
-	%month		= {},
-	%note		= {},
+	author		= {},
+	organization	= {},
+	address		= {},
+	edition		= {},
+	year		= {},
+	month		= {},
+	note		= {},
 }
 ```
 
@@ -161,10 +161,10 @@ Optional fields: type (eg. "diploma thesis"), address, month, note.
 	school    = {},
 	year      = "XXXX",
 	
-	%type     = "diploma thesis",
-	%address  = {},
-	%month    = {},
-	%note     = {},
+	type     = "diploma thesis",
+	address  = {},
+	month    = {},
+	note     = {},
 }
 ```
 
@@ -174,12 +174,12 @@ Required fields: none
 Optional fields: author, title, howpublished, month, year, note.
 ```
 @misc{Xmisc,
-	%author    = {},
-	%title     = {},
-	%howpublished = {},
-	%year     = "XXXX",
-	%month    = {},
-	%note     = {},
+	author    = {},
+	title     = {},
+	howpublished = {},
+	year     = "XXXX",
+	month    = {},
+	note     = {},
 }
 ```
 
@@ -194,10 +194,10 @@ Optional fields: address, month, keywords, note.
 	school		= {},
 	year			= {},
 	
-	%address		= {},
-	%month		= {},
-	%keywords		= {},
-	%note		= {},
+	address		= {},
+	month		= {},
+	keywords		= {},
+	note		= {},
 }
 ```
 
@@ -210,15 +210,15 @@ Optional fields: editor, volume/number, series, address, month, organization, pu
 	title		= {},
 	year			= {},
 	
-	%editor		= {},
-	%volume		= {},
-	%number		= {},
-	%series		= {},
-	%address		= {},
-	%organization	= {},
-	%publisher	= {},
-	%month		= {},
-	%note		= {},
+	editor		= {},
+	volume		= {},
+	number		= {},
+	series		= {},
+	address		= {},
+	organization	= {},
+	publisher		= {},
+	month		= {},
+	note			= {},
 }
 ```
 
@@ -233,11 +233,11 @@ Optional fields: type, number, address, month, note.
 	institution = {},
 	year      = "XXXX",
 	
-	%type     = {}, 
-	%number   = {},
-	%address  = {},
-	%month    = {},
-	%note     = {},
+	type     = {}, 
+	number   = {},
+	address  = {},
+	month    = {},
+	note     = {},
 }
 ```
 
@@ -250,7 +250,7 @@ Optional fields: month, year.
 	author	= {},
 	title	= {},
 	note	= {},
-	%year	= {},
-	%month	= {},
+	year	= {},
+	month	= {},
 }
 ```
