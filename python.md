@@ -1,6 +1,6 @@
 # Python Stuff I Regularly Use
 [Styling](#pep-8-style-guide)
-[Formatted Output](#Formatted-output)
+[Formatted Output](#formatted-output)
 [Logging](#logging)
 [Arrayfire](#arrayfire)
 
