@@ -1,7 +1,7 @@
 # Python Stuff I Regularly Use
-[Styling](#PEP-8-Style-guide)
+[Styling](#pep-8-style-guide)
 [Formatted Output](#Formatted-output)
-[Logging](#Logging)
+[Logging](#logging)
 [Arrayfire](#arrayfire)
 
 ## PEP 8 Style guide
