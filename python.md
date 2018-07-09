@@ -34,8 +34,9 @@ Intentional White-spaces
 * Surrounding binary operators (=, +=, -= etc., ==, <, >, !=, <>, <=, >=, in, not in, is, is not, and, or, not)
 
 ### Naming conventions:
+
 | Component | Convention |
-| ----      | ----       |
+| --------- | ---------  |
 | Package and Module | lowercase |
 | Class | CamelCase |
 | Type Variable | CamelCase |
