@@ -16,6 +16,10 @@ Run Docker image and map volume:
 
 --Note: Can use $PWD for current directory on host
 
+## Other commands 
+
+Enter a containers terminal: `docker exec -it <mycontainer> bash`
+
 
 ## Clean up commands
 
