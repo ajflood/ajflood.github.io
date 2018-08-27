@@ -1,22 +1,3 @@
-
-## Logging
-Setting up a new logger
-```
-import logging
-logger=logging.getLogger("loggerName")
-```
-
-| Level 		| Numeric Value 	| Python Call 	|
-| ---- 		| ---- 			| ---- 		|
-| CRITICAL 	| 50 			| critical 	|
-| ERROR 		| 40 			| error 		|
-| WARNING 	| 30 			| warning 	|
-| INFO 		| 20 			| info  		|
-| DEBUG 		| 10 			| debug  		|
-| NOTSET 		|  0 			|  			|
-
-[Back to Top](#)
-
 ## Formatted output
 `%[flags][width][.precision]type` 
 
@@ -48,4 +29,4 @@ logger=logging.getLogger("loggerName")
 | %		| No argument is converted, results in a "%" character in the result.	|
 
 [All this is taken from here.](https://www.python-course.eu/python3_formatted_output.php)
-[Back to Top](#)
+[Back to Python page](../python.md)

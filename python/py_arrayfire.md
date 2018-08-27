@@ -26,3 +26,5 @@ Displays the contents of an array.
 ### arith
 Raise 2 to the power of each element in input.
 `pow2(a)`
+
+[Back to Python page](../python.md)

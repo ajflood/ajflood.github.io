@@ -1,4 +1,3 @@
-
 ## Logging
 Setting up a new logger
 ```
@@ -15,4 +14,4 @@ logger=logging.getLogger("loggerName")
 | DEBUG 		| 10 			| debug  		|
 | NOTSET 		|  0 			|  			|
 
-[Back to Top](#)
+[Back to Python page](../python.md)
