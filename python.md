@@ -1,5 +1,5 @@
 # Python Stuff I Regularly Use
-[Styling](#py_styling.md)  
-[Formatted Output](#formatted-output)  
-[Logging](#logging)  
-[Arrayfire](#py_arrayfire.md)  
+[Styling](python/py_styling.md)  
+[Formatted Output](python/formatted-output)  
+[Logging](python/logging.md)  
+[Arrayfire](python/py_arrayfire.md)  
