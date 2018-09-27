@@ -35,10 +35,3 @@ Tagging branch as archived, deleting locally, then deleting remotely:
  git push --tags
  git push origin :<branchname>
 ```
-
-THIS WILL DELETE EVERYTHING:
-```
-docker rmi $(docker images -a -q)
-docker rm $(docker ps -a)
-docker rmi $(docker images -a -q)
-```

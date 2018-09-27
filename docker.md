@@ -38,7 +38,12 @@ Remove container:
 Remove image:  
 `docker rmi imageName`
 
-
+THIS WILL DELETE EVERYTHING:
+```
+docker system prune -a
+docker rm $(docker ps -a)
+docker rmi $(docker images -a -q)
+```
 
 
 
