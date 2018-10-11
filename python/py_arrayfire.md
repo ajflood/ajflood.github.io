@@ -1,5 +1,10 @@
 ## [Arrayfire](http://arrayfire.org/arrayfire-python/index.html)
 
+### This error means you ran out of memory
+
+`IndexError: In function af_err af_assign_seq(void**, af_array, unsigned int, const af_seq*, af_array)
+In file src/api/c/assign.cpp:147`
+
 ### algorithm
 Count number of non-zero elements in an array along a specified dimeinsion.  
 `count(a, dim=None)`
