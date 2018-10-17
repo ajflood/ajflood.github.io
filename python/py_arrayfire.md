@@ -36,6 +36,7 @@ Raise 2 to the power of each element in input.
 Select elements from one of two arrays based on condition. 
 
 When cond==T select lhs, when cond==F select rhs)
+
 `select(cond, lhs, rhs)`
 
 
