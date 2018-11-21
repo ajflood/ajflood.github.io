@@ -26,6 +26,14 @@ Numbered List:
 \end{enumerate}
 ```
 
+Equation:
+```
+\begin{equation}
+	\phi(t)=\frac{1}{\sqrt{2\pi}}
+	\intˆt_0 eˆ{-xˆ2/2} dx
+\end{equation}
+```
+
 ## Insert Regular Figure
 When writing a sentence to reference a figure write `Figure \ref{fig:figure_label}`.
 ```
