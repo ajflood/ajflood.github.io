@@ -1,5 +1,31 @@
 # LaTeX commands 
 
+## General Commands
+
+Sections: `section{Some section names you want}`
+
+Sub sections: `subsection{Some subsection heading}`
+
+Italics: `\emph{This is italic text}`
+
+Bold: `\textbf{This is bold text}`
+
+Bulletted List:
+```
+\begin{itemize}
+	\item This is your first bulleted item
+	\item The \item command tells it to start a new one
+\end{itemize}
+```
+
+Numbered List:
+```
+\begin{enumerate}
+	\item This is your first numbered item
+	\item The \item command tells it to start a new one
+\end{enumerate}
+```
+
 ## Insert Regular Figure
 When writing a sentence to reference a figure write `Figure \ref{fig:figure_label}`.
 ```
