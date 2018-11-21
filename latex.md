@@ -1,16 +1,18 @@
 # LaTeX commands 
 
-## General Commands
+### Sections: 
+`section{Some section names you want}`
 
-Sections: `section{Some section names you want}`
+### Sub sections: 
+`subsection{Some subsection heading}`
 
-Sub sections: `subsection{Some subsection heading}`
+### Italics: 
+`\emph{This is italic text}`
 
-Italics: `\emph{This is italic text}`
+### Bold: 
+`\textbf{This is bold text}`
 
-Bold: `\textbf{This is bold text}`
-
-Bulletted List:
+### Bulletted List:
 ```
 \begin{itemize}
 	\item This is your first bulleted item
@@ -18,7 +20,7 @@ Bulletted List:
 \end{itemize}
 ```
 
-Numbered List:
+### Numbered List:
 ```
 \begin{enumerate}
 	\item This is your first numbered item
@@ -26,7 +28,7 @@ Numbered List:
 \end{enumerate}
 ```
 
-Equation:
+### Equation:
 ```
 \begin{equation}
 	\phi(t)=\frac{1}{\sqrt{2\pi}}
@@ -34,7 +36,8 @@ Equation:
 \end{equation}
 ```
 
-## Insert Regular Figure
+### Insert Regular Figure:
+
 When writing a sentence to reference a figure write `Figure \ref{fig:figure_label}`.
 ```
 \begin{figure}[!htb]\centering
@@ -44,7 +47,7 @@ When writing a sentence to reference a figure write `Figure \ref{fig:figure_labe
 \end{figure}
 ```
 
-## Insert Sub-Figure
+### Insert Sub-Figure:
 ```
 \begin{figure}[!htb]\centering
 	\begin{subfigure}[c]{0.5\textwidth}\centering
@@ -62,3 +65,13 @@ When writing a sentence to reference a figure write `Figure \ref{fig:figure_labe
 \end{figure}
 ```
 
+### Insert Table
+```
+\begin{center}
+	\begin{tabular}{|c|c|c|} \hline 
+		cell1 & cell2 & cell3 \\ \hline
+		cell4 & cell5 & cell6 \\ \hline
+		cell7 & cell8 & cell9 \\ \hline
+	\end{tabular}
+\end{center}
+```
