@@ -29,6 +29,8 @@
 ```
 
 ### Equation:
+
+#### Single Equation
 ```
 \begin{equation}
 	\phi(t)=\frac{1}{\sqrt{2\pi}}
@@ -36,6 +38,16 @@
 \end{equation}
 ```
 
+#### Multiple Equations
+```
+\begin{align}
+	\label{eqn:equ_1_label}
+		left hand side of equation &= right hand sign of equation \\
+	\label{eqn:equ_2_label}
+		left hand side of equation &= right hand sign of equation 
+\end{align}
+```
+    
 ### Insert Regular Figure:
 
 When writing a sentence to reference a figure write `Figure \ref{fig:figure_label}`.
