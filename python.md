@@ -1,6 +1,5 @@
 # Python Stuff I Regularly Use
 
-[General python functionality](python/py_general.md)
 [Styling](python/py_styling.md)  
 [Formatted Output](python/py_formatted_output.md)  
 [Logging](python/py_logging.md)  
