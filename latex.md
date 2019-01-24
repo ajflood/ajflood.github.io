@@ -1,10 +1,14 @@
 # LaTeX commands 
 
-### Sections: 
-`section{Some section names you want}`
+### Document Layout: 
 
-### Sub sections: 
-`subsection{Some subsection heading}`
+1. `\part{Some part}`
+2. `\chapter{Some chapter}`
+3. `\section{Some section}`
+4. `\subsection{Some subsection}`
+5. `\subsubsection{Some subsubsection}`
+6. `\paragraph{Some paragraph}`
+7. `\subparagraph{Some subparagraph}`
 
 ### Italics: 
 `\emph{This is italic text}`
