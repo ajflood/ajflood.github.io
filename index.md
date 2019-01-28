@@ -50,5 +50,5 @@ This is my website where I will house a wide variety of things.  For starters I 
 
 [python Cheat Sheet](python.md)
 
-[My Resume](resume.md)
+<!-- [My Resume](resume.md) -->
 
