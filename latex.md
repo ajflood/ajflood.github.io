@@ -137,3 +137,6 @@ contrib{PersonTwo}{ReportPartOne.tex}
 \section{Person one part two section title}
 contrib{PersonTwo}{ReportPartTwo.tex}
 ```
+
+Building the latex file:
+`./buildReport.sh ReportName.tex`
