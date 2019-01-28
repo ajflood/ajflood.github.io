@@ -89,3 +89,51 @@ When writing a sentence to reference a figure write `Figure \ref{fig:figure_labe
 	\end{tabular}
 \end{center}
 ```
+
+## Using PINE's reporting template
+
+File structure:
+```
+ReportFolder
+|  latexDocker.sh
+|  buildReport.sh
+|  definitions.tex
+|  pine_functions.tex
+|  ReportName.tex
+|
+|-- contributions
+|   |   
+|   |-- PersonOne
+|   |   | ReportPartOne.tex
+|   |   | ReportPartTwo.tex
+|   |   | 
+|   |   |-- images
+|   |   |    |-- ImageOne.png
+|   |   |    |-- ImageTwo.pdf
+|   |
+|   |-- PersonTwo
+|   |   | ReportPartOne.tex
+|   |   | ReportPartTwo.tex
+|   |   | 
+|   |   |-- images
+|   |   |    |-- ImageOne.png
+|   |   |    |-- ImageTwo.pdf
+...
+```
+
+Within the main report (ReportName.tex) using the `contrib{}{}` function to include the report parts as follows:
+
+
+```
+\section{Person one part one section title}
+contrib{PersonOne}{ReportPartOne.tex}
+
+\section{Person one part two section title}
+contrib{PersonOne}{ReportPartTwo.tex}
+
+\section{Person two part one section title}
+contrib{PersonTwo}{ReportPartOne.tex}
+
+\section{Person one part two section title}
+contrib{PersonTwo}{ReportPartTwo.tex}
+```
