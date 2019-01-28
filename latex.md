@@ -14,15 +14,14 @@
 
 * Italics: `\emph{This is italic text}`
 * Bold: `\textbf{This is bold text}`
-* Bold: Bulletted List:
+* Bulletted List:
 ```
 \begin{itemize}
 	\item This is your first bulleted item
 	\item The \item command tells it to start a new one
 \end{itemize}
 ```
-
-### Numbered List:
+* Numbered List:
 ```
 \begin{enumerate}
 	\item This is your first numbered item
@@ -30,17 +29,17 @@
 \end{enumerate}
 ```
 
-### Equation:
+## Equations:
 
-#### Single Equation
+* Inline Equation: `$some equation$`
+* Single Equation:
 ```
 \begin{equation}
 	\phi(t)=\frac{1}{\sqrt{2\pi}}
 	\intˆt_0 eˆ{-xˆ2/2} dx
 \end{equation}
 ```
-
-#### Multiple Equations
+* Multiple Equations
 ```
 \begin{align}
 	\label{eqn:equ_1_label}
@@ -49,10 +48,13 @@
 		left hand side of equation &= right hand sign of equation 
 \end{align}
 ```
-    
-### Insert Regular Figure:
+
+
+## Figures/Tables:
 
 When writing a sentence to reference a figure write `Figure \ref{fig:figure_label}`.
+
+* Regular Figure:
 ```
 \begin{figure}[!htb]\centering
 	\includegraphics[width=\textwidth]{some_figure_name}
@@ -60,8 +62,7 @@ When writing a sentence to reference a figure write `Figure \ref{fig:figure_labe
 	\label{fig:figure_label}
 \end{figure}
 ```
-
-### Insert Sub-Figure:
+* Sub-Figures:
 ```
 \begin{figure}[!htb]\centering
 	\begin{subfigure}[c]{0.5\textwidth}\centering
@@ -78,8 +79,7 @@ When writing a sentence to reference a figure write `Figure \ref{fig:figure_labe
 \label{fig:combined_figure_label}
 \end{figure}
 ```
-
-### Insert Table
+* Table:
 ```
 \begin{center}
 	\begin{tabular}{|c|c|c|} \hline 
