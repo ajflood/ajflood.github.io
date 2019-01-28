@@ -1,5 +1,13 @@
 # Git Cheat Sheet
 
+## Basic usage
+* Check in files manually: `git add some_file_name.py`
+* Check in all files: `git add *`
+* Commit all changes with messages: `git commit -m "Some commit message describing what changed"`
+* Check in all files which have changed, add message and commit `git commit -am "Some commit message describing what changed"`
+* Push to master branch to remote server origin: `git push origin master`
+
+## Other general usages
 * See all branches and links `git remote show origin`
 * Track all remote branches `git fetch --all`
 * Checkout branch (even remotes) `git checkout <branchname>`
