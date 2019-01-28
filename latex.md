@@ -1,6 +1,6 @@
 # LaTeX commands 
 
-### Document Layout: 
+## Document Layout: 
 
 1. `\part{Some part}`
 2. `\chapter{Some chapter}`
@@ -10,13 +10,11 @@
 6. `\paragraph{Some paragraph}`
 7. `\subparagraph{Some subparagraph}`
 
-### Italics: 
-`\emph{This is italic text}`
+## Formatting:
 
-### Bold: 
-`\textbf{This is bold text}`
-
-### Bulletted List:
+* Italics: `\emph{This is italic text}`
+* Bold: `\textbf{This is bold text}`
+* Bold: Bulletted List:
 ```
 \begin{itemize}
 	\item This is your first bulleted item
