@@ -6,6 +6,7 @@
 * Commit all changes with messages: `git commit -m "Some commit message describing what changed"`
 * Check in all files which have changed, add message and commit `git commit -am "Some commit message describing what changed"`
 * Push to master branch to remote server origin: `git push origin master`
+* Pull from remote server origin master branch to local current branch: `git push origin master`
 
 ## Other general usages
 * See all branches and links `git remote show origin`
