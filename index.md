@@ -52,3 +52,12 @@ This is my website where I will house a wide variety of things.  For starters I 
 
 <!-- [My Resume](resume.md) -->
 
+Engineering constants I use regurally:
+
+| Constant 			| Value			|
+| :-----------------: 	|:-------------:	|
+| Stefan Boltzmann		| 5.670367 E-8 	|
+| Plank 				| 6.626070040 E-34 	|
+| Avogadro Number	 	| 6.022141 E23		|
+| Charge of Electron	| 1.602176 E19		|
+| e of Natural Log		| 2.718281828		|
