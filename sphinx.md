@@ -13,6 +13,9 @@
 
 	:param inputs: [description]
 	:type inputs: [type]
+	
+	:return: [ReturnDescription]
+	:rtype: [ReturnType]
 	"""
 	```
 
