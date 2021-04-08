@@ -50,6 +50,8 @@ This is my website where I will house a wide variety of things.  For starters I 
 
 [python Cheat Sheet](python.md)
 
+[sphinx Cheat Sheet](sphinx.md)
+
 <!-- [My Resume](resume.md) -->
 
 Engineering constants I use regurally:
