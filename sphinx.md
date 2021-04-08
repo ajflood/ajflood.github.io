@@ -19,6 +19,11 @@
 - Comments:
   ``` #: some comment ```
 
+- Linking:
+  - :attr:`class.attr`
+  - :class:`class`
+  - :meth:`class.method`
+  - :exc:`class.exc`
 ## Config stuff example
 ```
 # Configuration file for the Sphinx documentation builder.
@@ -70,6 +75,7 @@ latex_elements = {
 }
 latex_domain_indices = False
 texinfo_domain_indices = False
+autoclass_content = 'both'
 ```
 
 ## Sample index file
