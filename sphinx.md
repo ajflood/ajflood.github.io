@@ -5,8 +5,21 @@
 - `cd docs`
 - `sphinx-quickstart`
 - 
-  
-# Config stuff example
+
+## General use
+- Doc string:
+	```
+	"""[summary]
+
+	:param inputs: [description]
+	:type inputs: [type]
+	"""
+	```
+
+- Comments:
+  ``` #: some comment ```
+
+## Config stuff example
 ```
 # Configuration file for the Sphinx documentation builder.
 #
@@ -59,7 +72,7 @@ latex_domain_indices = False
 texinfo_domain_indices = False
 ```
 
-# Sample index file
+## Sample index file
 ```
 .. Galvo Driver documentation master file, created by
    sphinx-quickstart on Thu Apr  8 09:14:11 2021.
@@ -75,7 +88,7 @@ Welcome to Galvo Driver's documentation!
    :undoc-members:
 ```
 
-# Sample build bash file
+## Sample build bash file
 ```
 #!/bin/bash
 
