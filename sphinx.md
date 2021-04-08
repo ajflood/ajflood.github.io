@@ -24,6 +24,7 @@
   - :class:`class`
   - :meth:`class.method`
   - :exc:`class.exc`
+  
 ## Config stuff example
 ```
 # Configuration file for the Sphinx documentation builder.
