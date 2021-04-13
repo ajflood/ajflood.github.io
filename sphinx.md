@@ -4,7 +4,7 @@
 - `mkdir docs`
 - `cd docs`
 - `sphinx-quickstart`
-- 
+- `Separate source and build directories (y/n) [n]`: n
 
 ## General use
 - Doc string:
@@ -55,9 +55,6 @@ author = 'YYY'
 # The full version, including alpha/beta/rc tags
 release = 'WY.WY'
 
-master_doc = 'index'
-latex_doc = 'galvodriver.tex'
-
 # -- General configuration ---------------------------------------------------
 extensions = [
     'sphinx.ext.autodoc',
@@ -80,6 +77,7 @@ latex_elements = {
 latex_domain_indices = False
 texinfo_domain_indices = False
 autoclass_content = 'both'
+numfig = True
 ```
 
 ## Sample index file
